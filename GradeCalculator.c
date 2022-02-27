@@ -29,9 +29,14 @@ int main()
        printf("%d out of 100 -  Grade D", marks);
    }
   
-   else
+   else if(marks<=40 && marks>=0)
    {
        printf("%d out of 100 -  Grade F", marks);
+   }
+  
+   else //checking for invalid input
+   {
+       printf("Invalid input, please try again");
    }
   
  
